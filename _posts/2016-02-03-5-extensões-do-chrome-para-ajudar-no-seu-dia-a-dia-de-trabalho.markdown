@@ -8,7 +8,7 @@ categories: javascript atom chrome tecnology
 
 Esse post não foi criado para afirmar que essas extensões são as que devem ser usadas todos os dias e em todos os projetos, mas são dicas de como melhorar algo, que talvez você faça hoje e que possa ser feito muito mais rápido e melhor.
 
- Uma das premissas aqui da Just é, fazer simples, para fazer mais e melhor. Com isso vamos as dicas.
+ Uma das premissas aqui de um bom desenvolvedor é, fazer simples, para fazer mais e melhor. Com isso vamos as dicas.
 
 - **[Lightshot](https://chrome.google.com/webstore/detail/lightshot-screenshot-tool/mbniclmhobmnbdlbpiphghaielnnpgdp?hl=pt-BR)**
 
