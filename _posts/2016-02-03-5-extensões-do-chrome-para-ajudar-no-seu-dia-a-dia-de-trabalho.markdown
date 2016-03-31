@@ -10,7 +10,7 @@ Esse post não foi criado para afirmar que essas extensões são as que devem se
 
  Uma das premissas aqui da Just é, fazer simples, para fazer mais e melhor. Com isso vamos as dicas.
 
-1. [Lightshot](https://chrome.google.com/webstore/detail/lightshot-screenshot-tool/mbniclmhobmnbdlbpiphghaielnnpgdp?hl=pt-BR)
+- **[Lightshot](https://chrome.google.com/webstore/detail/lightshot-screenshot-tool/mbniclmhobmnbdlbpiphghaielnnpgdp?hl=pt-BR)**
 
 Essa ferramenta eu particularmente uso bastante. Sei que todo sistema operacional possui um maneira de capturar a tela por padrão, mas essa extensão auxilia muito quando preciso enviar alguma imagem do site ou até mesmo ajudar o cliente a visualizar algo que está na minha tela.
 
@@ -19,7 +19,7 @@ Com ela é possível selecionar a área desejada do site, no qual inclusive é e
 O que mais essa extensão agiliza em nossas vidas é a opção de escolher entre salvar a imagem, compartilhar nas redes sociais, copiar para a área de seleção (famoso Ctrl+C) ou imprimir.
 
 
-2. [PerfectPixel](https://chrome.google.com/webstore/detail/perfectpixel-by-welldonec/dkaagdgjmgdmbnecmcefdhjekcoceebi?hl=pt-BR)
+- **[PerfectPixel](https://chrome.google.com/webstore/detail/perfectpixel-by-welldonec/dkaagdgjmgdmbnecmcefdhjekcoceebi?hl=pt-BR)**
 
 Essa extensão é muito útil em nossa área já que trabalhamos com layouts enviados para nós em tudo quanto é formato, tamanho e peso.
 
@@ -28,20 +28,20 @@ Com ela você adiciona uma imagem, posiciona no local exato do seu site, aumenta
 Muito bom para verificar tamanhos de todos os elementos do site, se eles seguem o que foi passado no layout onde muitas vezes não há especificação nenhuma.
 
 
-3. [Page Ruler](https://chrome.google.com/webstore/detail/page-ruler/jlpkojjdgbllmedoapgfodplfhcbnbpn?hl=pt-BR)
+- **[Page Ruler](https://chrome.google.com/webstore/detail/page-ruler/jlpkojjdgbllmedoapgfodplfhcbnbpn?hl=pt-BR)**
 
 Muito importante para qualquer desenvolvedor web, a régua, é uma ferramenta bastante utilizada. No caso existem várias extensões como essa, eu particularmente já testei muitas, mas essa hoje me atende bem.
 
 O que mais me agrada nessa extensão é o menu de fácil acesso e entendimento no topo da tela, e as linhas que transpassam o local selecionado fazendo com que você perca pouco tempo alinhando os elementos pela página, de acordo com o layout.
 
 
-4. [Feedly Notifier](https://chrome.google.com/webstore/detail/feedly-notifier/egikgfbhipinieabdmcpigejkaomgjgb)
+- **[Feedly Notifier](https://chrome.google.com/webstore/detail/feedly-notifier/egikgfbhipinieabdmcpigejkaomgjgb)**
 
 Como uso Feedly a muito tempo, sou suspeito para falar, mas esse foi o melhor leitor de RSS que já encontrei, ele nos permite separar blogs automaticamente de acordo com o assunto, ou você mesmo pode criar categorias e separá-los. Só recentemente, que então eu encontrei a extensão para o Chrome.
 
 Além do fácil acesso aos artigos dos blog que venho seguindo, a extensão possui duas espécies de alerta para se consumir o conteúdo: Um deles é o número destacado em vermelho, no ícone da extensão, mostrando o número de artigos ainda não lidos, e se clicar no botão é mostrado uma lista com esses artigos. A outra forma de alerta, é uma notificação exibida em sua tela, avisando que foi adicionado um novo artigo.
 
- 5. [Strict Workflow](https://chrome.google.com/webstore/detail/strict-workflow/cgmnfnmlficgeijcalkgnnkigkefkbhd?hl=pt-BR)
+- **[Strict Workflow](https://chrome.google.com/webstore/detail/strict-workflow/cgmnfnmlficgeijcalkgnnkigkefkbhd?hl=pt-BR)**
 
 É muito normal nosso rendimento ter altos e baixos por conta de perda de foco. Nesse caso nada melhor que uma extensão  que nos auxilie a não perder tempo em redes sociais ou em sites de notícias.
 
