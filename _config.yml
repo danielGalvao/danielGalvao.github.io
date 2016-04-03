@@ -1,21 +1,61 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
+# Build settings
+gems:
+  - jemoji
+  - jekyll-paginate
 
 # Site settings
-title: Daniel Galvão
-email: galvaodev@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  I'm Daniel Galvão, now pushing code at Just Digital.
-  Working with PHP, JS, CSS, ElasticSearch, Meteor, node.js, SASS and others.
-  Sharing knowledge and experiences.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://danielGalvao.github.io" # the base hostname & protocol for your site
-twitter_username: danielsamsung
-github_username:  danielGalvao
+title: "Daniel Galvão"
+description: > # this means to ignore newlines until "email:"
+   I'm Daniel Galvão, now pushing code at Just Digital.
+   Working with PHP, JS, CSS, ElasticSearch, Meteor, node.js, SASS and others.
+   Sharing knowledge and experiences.
 
-# Build settings
-markdown: kramdown
+email: galvaodev@gmail.com
+#blog logo
+logo: "/assets/images/df_logo.jpg"
+# blog cover
+cover: "/assets/images/cA4aKEIPQrerBnp1yGHv_IMG_9534-3-2.jpg"
+
+name: 'Daniel Galvão'
+author: 'Daniel Galvão'
+author_image: "/assets/images/author.jpg"
+
+paginate:	5
+
+url: "http://danielGalvao.github.io" # the base hostname & protocol for your site
+baseurl: ""
+#used to display twitter cards
+twitter_handle: '@danielsamsung'
+
+#fill in disqus shortname to use disqus
+#disqus: disqus-shortname
+
+# social icons and sharing options
+social:
+  - icon:	twitter
+    url:	https://twitter.com/danielsamsung
+    desc: Follow me on twitter
+    share_url: http://twitter.com/share
+    share_title: ?text=
+    share_link: "&amp;url="
+
+#  - icon:	facebook
+#    url:	https://facebook.com/???
+#    desc: Connect with me facebook
+#    share_url: https://www.facebook.com/sharer.php
+#    share_title: ?t=
+#    share_link: "&amp;u="
+
+  - icon:	github
+    url:	https://github.com/danielGalvao
+    desc:	Fork me on github
+    share_url:
+    share_title:
+    share_link:
+
+#  - icon:	google-plus
+#    url:	https://google.com/???
+#    desc:	Add me on google+
+#    share_url:
+#    share_title:
+#    share_link:
