@@ -4,7 +4,7 @@ title:  "O que muda no JavaScript com o EcmaScript 6"
 date:   2016-03-15 12:12:45 -0300
 categories: javascript tecnology
 ---
-Bom pessoal, acredito que todos já saibam da nova versão do JavaScript(ES6), oficialmente chamada de ES2015.
+Acredito que todos já saibam da nova versão do JavaScript(ES6), oficialmente chamada de ES2015.
 
 A falta de suporte dos navegadores não pode ser uma desculpa para você ficar pensando em não estudar ou não aplicar o ES6. Cuidado para não ficar ultrapassado!
 
