@@ -1,19 +1,19 @@
 ---
 layout: page
-title: About
+title: About me
 permalink: /about/
 ---
 
-I am Daniel Galvao, born in Lorena, São Paulo. Graduated in System Analysis by UNISANTOS, work in the field of web development since 2010.
+I am Daniel Galvão, born in Lorena, São Paulo. Graduated in Information Systems at UNISANTOS, working with web development since 2010.
 
-I worked on the portal vagalume.com.br music for 4 years, developing hotsites and improvements in apliações letters and videos in the portal. After desire for new challenges I was called to work at JUST DIGITAL where the focus is on large customers with large portals content.
+I worked at vagalume.com.br for 4 years. A big portal of music lyrics, developing hotsites and improvements in applications to show lyrics and videos. After desire for new challenges I was called to work at JustDigital, where the focus is large customers with large portals content.
 
-Working with Drupal core as the portals. But we have freedom of choice of the entire application, which tool to use, operating system and any framework or library to assist the Front End and the back-end. The way of working is based on the scrum, agile, with sprints, pair programing, code review, testing, daily and all processes involving the best agile to work aligned with continuous integrations.
+Working with CMS Drupal. But we have freedom of choice of the entire application, which tool to use, operating system and any framework or library to assist the front-end and the back-end. The processes of work is scrum and agile based, with sprints, pair programing, code review, tests, daily and all processes involving the best of agile. Aligned with continuous integrations.
 
-Today I'm almost 30 years old, and I challenge every day. It makes me very well and walks lined with lot of study and practice new technologies.
+Today I'm almost 30 years old, and I have challenge every day. It makes me very well and walks lined with lot of study and applying new technologies.
 
-My goal is to work out of Brazil, at the beginning by the Just until the challenges are others to motivate me. As a product, or a grand company with its own product.
+My goal is to work out of Brazil, at Just to start a new life, until the challenges that motivate me are other. I want to work with a product, or a big company with its own product.
 
-My main interests today are: React, Meteor, NodeJS, MongoDB, Redis, CSS, PHP, Python and ElasticSearch.
+My interests today are: React, Meteor, NodeJS, MongoDB, Redis, CSS, PHP, Python and ElasticSearch.
 
-My fun is learning something new, be with my family, wife, son and dog and see new places, cities and countries.
+My fun is learning something new, stay with my family, wife, son and dog. See new places, cities and countries.
