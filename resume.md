@@ -7,11 +7,16 @@ permalink: /resume/
 Daniel Galvão
 ============
 
--------------------     ----------------------------
-187 Botelho St             Email: galvaode@gmail.com
-São Paulo                    Twitter: @danielsamsung
-Brazil                         Github: danielGalvao
--------------------     ----------------------------
+----------------------------
+187 Botelho St - São Paulo - Brazil
+
+Email: galvaode@gmail.com
+
+Twitter: @danielsamsung
+
+Github: danielGalvao
+
+-------------------
 
 Education
 ---------
@@ -19,67 +24,31 @@ Education
 2005-2010(expected)
 :   **Bachelor, Information Systems**; Catholic University (Santos/SP)
 
-    *Thesis title: Deep Learning Approaches to the Self-Awesomeness
-     Estimation Problem*
-
 Experience
 ----------
 
-**Web Developer - JustDigital:**
+**Web Developer - JustDigital.com.br:**
 
-Short text containing the type of work done, results obtained,
-lessons learned and other remarks. Can also include lists and
-links:
+Working with Drupal 6 and 7.
 
-* First item
+Front-end tool: SASS, Grunt, JS, HTML.
 
-* Item with [link](http://www.example.com). Links will work both in
-  the html and pdf versions.
+Back-end tools: PHP, NodeJS
 
-**Web Developrt - vagalume.com.br**
+Projects:
 
-Also with a short description.
+* Viavarejo - Intranet Systems
 
-Technical Experience
---------------------
+* [CNC (Confederação Nacional do Comércio)](http://www.cnc.org)
 
-My Cool Side Project
-:   For items which don't have a clear time ordering, a definition
-    list can be used to have named items.
+* [ESPM (Escola Superior de Propaganda e Marketing)](http://www.cnc.org)
 
-    * These items can also contain lists, but you need to mind the
-      indentation levels in the markdown source.
-    * Second item.
+**Web Developer - vagalume.com.br**
 
-Open Source
-:   List open source contributions here, perhaps placing emphasis on
-    the project names, for example the **Linux Kernel**, where you
-    implemented multithreading over a long weekend, or **node.js**
-    (with [link](http://nodejs.org)) which was actually totally
-    your idea...
 
-Programming Languages
-:   **first-lang:** Here, we have an itemization, where we only want
-    to add descriptions to the first few items, but still want to
-    mention some others together at the end. A format that works well
-    here is a description list where the first few items have their
-    first word emphasized, and the last item contains the final few
-    emphasized terms. Notice the reasonably nice page break in the pdf
-    version, which wouldn't happen if we generated the pdf via html.
+**Web Developer - casadosapo.com.br**
 
-:   **second-lang:** Description of your experience with second-lang,
-    perhaps again including a [link] [ref], this time placing the url
-    reference elsewhere in the document to reduce clutter (see source
-    file).
-
-:   **obscure-but-impressive-lang:** We both know this one's pushing
-    it.
-
-:   Basic knowledge of **C**, **x86 assembly**, **forth**, **Common Lisp**
-
-[ref]: https://github.com/githubuser/superlongprojectname
-
-Extra Section, Call it Whatever You Want
+Extras
 ----------------------------------------
 
 * Human Languages:
@@ -88,6 +57,5 @@ Extra Section, Call it Whatever You Want
      * English - intermediate
      * Spanish - Basic
 
-* Random tidbit
-
-* Other sort of impressive-sounding thing you did
+* Book:
+  * 
