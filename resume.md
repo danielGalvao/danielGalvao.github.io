@@ -7,18 +7,14 @@ permalink: /resume/
 Daniel Galvão
 ============
 
-----------------------------
+***
 187 Botelho St - São Paulo - Brazil
 
 Email: galvaode@gmail.com
-
 [LinkedIn](https://lnkd.in/ejxcV5c)
-
 [Twitter](https://twitter.com/danielsamsung)
-
 [Github](http://github.com/danielGalvao)
-
--------------------
+***
 
 Education
 ---------
