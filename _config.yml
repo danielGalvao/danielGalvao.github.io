@@ -33,7 +33,7 @@ twitter_handle: '@galvaodev'
 # social icons and sharing options
 social:
   - icon:	twitter
-    url:	https://twitter.com/danielsamsung
+    url:	https://twitter.com/galvaodev
     desc: Follow me on twitter
     share_url: http://twitter.com/share
     share_title: ?text=
