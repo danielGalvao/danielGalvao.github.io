@@ -6,6 +6,19 @@ layout: default
     <div class="teaserimage-image" {% if site.cover %}style="background-image: url({{ site.cover }})"{% endif %}>
         Teaser Image
     </div>
+    <div class="container">
+      <div class="weather-data-container">
+      <div id="city"></div>
+      <div id="temperature"></div>
+      <div id="results">
+        <div id="condition"></div>
+        <div id="wind-speed"></div>
+      </div>
+      <div>
+        <input id="convert-button" type="button" class="btn btn-lg btn-primary" value="Show: °F / °C" />
+      </div>
+      </div>
+    </div>
 </div>
 
 <header class="blog-header">
