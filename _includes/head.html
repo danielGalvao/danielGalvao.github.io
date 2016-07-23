@@ -23,7 +23,7 @@
     <meta name="twitter:description" content="{{ site.description | strip_html | strip_newlines | truncate: 200 }}" />
     {% endif %}
   {% endif %}
-  
+
   <meta property="og:site_name" content="{{ site.title }}" />
   <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}"/>
   {% if page.excerpt %}
@@ -43,4 +43,75 @@
 
   <link rel="stylesheet" type="text/css" media="screen" href="{{ "/css/main.css"  | prepend: site.baseurl  }}" />
   <link rel="stylesheet" type="text/css" media="print" href="{{ "/css/print.css"  | prepend: site.baseurl  }}" />
+  <link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" type="text/css">
+  <link rel="stylesheet prefetch" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.min.css" type="text/css">
+  <link rel="stylesheet prefetch" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons-wind.min.css" type="text/css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,700' rel='stylesheet' type='text/css'>
+  <style>
+  .weather-data-container {
+    border-radius: 10px;
+    padding: 30px 0px 10px 0px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, .5);
+    height: 400px;
+  }
+
+  #city {
+    font-size: 3em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    color: #FFFFFF;
+  }
+
+  #temperature {
+    font-size: 3em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    color: #FFFFFF;
+  }
+
+  #results {
+    margin-bottom: 1.5em;
+  }
+
+  #condition,
+  #wind-speed {
+    background-color: rgba(48,48,48, .8);
+    color: #CFCFCF;
+    border-radius: 10px;
+    display: inline-block;
+    font-size: 1.2em;
+    margin: .5em;
+    min-height: 6em;
+    min-width: 10em;
+    padding: 1.3em;
+  }
+
+  #convert-button {
+    font-size: 3em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    background-color:transparent;
+    cursor:pointer;
+
+  }
+
+  .wi {
+    font-size: 3em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+  }
+
+  #error {
+    font-size: 1.5em;
+    margin: 1em 0 0 2em;
+    text-align: left;
+  }
+
+  #error a {
+    color: #328CBF;
+    text-decoration: underline;
+  }
+  </style>
 </head>
