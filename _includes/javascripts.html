@@ -144,11 +144,6 @@ $(document).ready(function () {
     $('#condition').html(
       '<i class="wi wi-' + iconClass + '"></i><br>' + condition);
   })
-    .fail(function (err) {
-    $('#city').text('Seattle, WA, United States');
-    getWeather(47.6062, 122.3321, 'US');
-    return false;
-  });
 }
 
   //toggle between celsius / fahrenheit
