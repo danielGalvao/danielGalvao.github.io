@@ -145,12 +145,11 @@ $(document).ready(function () {
       '<i class="wi wi-' + iconClass + '"></i><br>' + condition);
   })
     .fail(function (err) {
-    alert('There was an error retrieving your weather data. \n' +
-          'Please try again later. Redirecting you to Seattle for now.');
     $('#city').text('Seattle, WA, United States');
     getWeather(47.6062, 122.3321, 'US');
+    return false;
   });
-  }
+}
 
   //toggle between celsius / fahrenheit
   $('#convert-button').click(function () {
