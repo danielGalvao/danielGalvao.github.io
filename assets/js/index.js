@@ -26,13 +26,15 @@
     });
 
   });
-  
+
   // Test cycle
-  TweenMax.staggerFrom('.custom-links a', 1, {
-      opacity: 0,
-      cycle: {
-        x: [30, -30]
-      }
-    }, .2);
+  setTimeout(function(){
+    TweenMax.staggerFrom('.custom-links a', 1, {
+        opacity: 0,
+        cycle: {
+          x: [30, -30]
+        }
+      }, .2);
+  },2000);
 
 }(jQuery));
