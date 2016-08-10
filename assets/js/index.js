@@ -31,6 +31,7 @@
   setTimeout(function(){
     TweenMax.staggerFrom('.custom-links a', 1, {
         opacity: 0,
+        backgroundColor: red,
         cycle: {
           x: [30, -30]
         }
