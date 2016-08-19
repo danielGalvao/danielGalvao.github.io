@@ -86,23 +86,7 @@ $(document).ready(function () {
         id = weatherData.weather[0].id,
         speed = Number((weatherData.wind.speed * 0.86897624190816).toFixed(1)),
         deg = weatherData.wind.deg,
-        windDir,
-        iconClass,
-        bgIndex,
-        backgroundId = [299, 499, 599, 699, 799, 800],
-        backgroundIcon = [
-          'thunderstorm',
-          'sprinkle',
-          'rain',
-          'snow',
-          'fog',
-          'night-clear',
-          'cloudy',
-        ];
-
-      backgroundId.push(id);
-      bgIndex = backgroundId.sort().indexOf(id);
-      iconClass = backgroundIcon[bgIndex];
+        windDir;
 
     //Get wind compass direction. If API returns null, assume 0 degrees.
     if (deg) {
