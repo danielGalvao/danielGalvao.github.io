@@ -86,36 +86,7 @@ $(document).ready(function () {
         id = weatherData.weather[0].id,
         speed = Number((weatherData.wind.speed * 0.86897624190816).toFixed(1)),
         deg = weatherData.wind.deg,
-        windDir,
-        iconClass,
-        bgIndex,
-        backgroundId = [299, 499, 599, 699, 799, 800],
-        backgroundIcon = [
-          'thunderstorm',
-          'sprinkle',
-          'rain',
-          'snow',
-          'fog',
-          'night-clear',
-          'cloudy',
-        ],
-        backgroundImg = [
-          'https://source.unsplash.com/collection/269971/1600x900',
-          'https://source.unsplash.com/collection/267472/1600x900',
-          'https://source.unsplash.com/collection/267472/1600x900',
-          'https://source.unsplash.com/collection/269968/1600x900',
-          'https://source.unsplash.com/collection/269970/1600x900',
-          'https://source.unsplash.com/collection/269965/1600x900',
-          'https://source.unsplash.com/collection/269968/1600x900',
-        ];
-
-
-
-
-      backgroundId.push(id);
-      bgIndex = backgroundId.sort().indexOf(id);
-      //$('body').css('background-image', 'url(' + backgroundImg[bgIndex] + ')');
-      iconClass = backgroundIcon[bgIndex];
+        windDir;
 
     //Get wind compass direction. If API returns null, assume 0 degrees.
     if (deg) {
@@ -141,8 +112,6 @@ $(document).ready(function () {
     $('#wind-speed').html(
       '<i class="wi wi-wind wi-from-' + windDir.toLowerCase() + '"></i><br>' +
       windDir + ' ' + speed + ' knots');
-    $('#condition').html(
-      '<i class="wi wi-' + iconClass + '"></i><br>' + condition);
   })
 }
 
