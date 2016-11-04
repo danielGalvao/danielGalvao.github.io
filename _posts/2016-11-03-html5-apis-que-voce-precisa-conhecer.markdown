@@ -21,13 +21,13 @@ Fazia tempo que uma palestra não me deixava com sede de aprender, e buscar test
 
 Então vamos a elas:
 
-### Page Visibility
+## Page Visibility
 
 O _Page Visibility API_ consegue te informar quando uma página está visível ou em foco no navegador. Por conta das abas é possível que sua aplicação trabalhe em segundo plano, ou até mesmo, pare de rodar determinada funcionalidade caso o usuário não esteja mais navegando.
 
 Quando a página é minimizada ou aba é alterada, o evento _visibilitychange_ informa o status de visibilidade.
 
-###### Exemplo
+Exemplo
 {% highlight javascript %}
 
 document.addEventListener('visibilitychange', function () {
@@ -42,24 +42,24 @@ document.addEventListener('visibilitychange', function () {
 
 {% endhighlight %}
 
-### Device Orientation
+## Device Orientation
 
 O _Device Orientation_ retorna as coordenadas do dispositivo. Coordenadas alpha, beta e gamma, são expostas, dependendo do posicionamento do dispositivo. Isso é bem importante para as aplicações pois os usuários estão cada vez mais acessando as aplicações de dispositivos móveis.
 
-###### Exemplo
+Exemplo
 {% highlight javascript %}
   window.addEventListener('deviceorientation', function(event) {
     console.log ='beta: '+ event.beta +' gamma: '+ event.gamma + 'alpha: ' + event.alpha;
   });
 {% endhighlight %}
 
-### Network Information
+## Network Information
 
 Essa é uma das APIs que quase não se tem suporte. Apesar de vir para substituir uma forma já existente de se ter acesso a informação de _online_ ou _offline_ da internet do usuário.
 
 A nova API vem para trazer ainda mais informação, além do status da conxão, retornará o tipo de conexão e a velocidade dela.
 
-###### Exemplo
+Exemplo
 {% highlight javascript %}
   connection.addEventListener('change', function (event) {
     console.log('A velocidade de conexão é: '+connection.downlinkMax);
@@ -67,13 +67,13 @@ A nova API vem para trazer ainda mais informação, além do status da conxão, 
   });
 {% endhighlight %}
 
-### Battery Status
+## Battery Status
 
 Battery Status é a API que retorna a informação sobre o status da bateria, se está sendo carregada, o level da bateria e o tempo de carregamento e descarregamento.
 
 Mais uma boa interação com o usuário para avisá-lo que muito provavelmente a aplicação pode ser prejudicada por conta do desligamento do dispositivo.
 
-###### Exemplo
+Exemplo
 {% highlight javascript %}
   navigator.getBattery().then(function(battery){
     console.log('A bateria está sendo carregada: '+battery.charging ? 'Sim' : 'Não');
@@ -83,20 +83,20 @@ Mais uma boa interação com o usuário para avisá-lo que muito provavelmente a
   });
 {% endhighlight %}
 
-### Vibration API
+## Vibration API
 
 API que tem acesso ao hardware de vibração do dispositivo. É bem simples de implementar, pois espara-se um valor inteiro ou array de valores inteiros, onde é intercalado em tempo de vibração e tempo de pausa de vibração.
 
-###### Exemplo
+Exemplo
 {% highlight javascript %}
   navigator.vibrate([400, 500, 400, 500, 5000]);
 {% endhighlight %}
 
-### Web Notifications
+## Web Notifications
 
 Cada vez mais as pessoas na internet são Multi-tasks e estão fazendo inúmeras coisas. O Web Notification API veio para ir além do navegador. Uma mensagem na lateral é aberta fora da página/navegador. É possível passar os parâmetros de title, body, icon, tag e dir.
 
-###### Exemplo
+Exemplo
 {% highlight javascript %}
   var title = 'Email recebido'
   ,   options = {
@@ -109,11 +109,11 @@ Cada vez mais as pessoas na internet são Multi-tasks e estão fazendo inúmeras
   });
 {% endhighlight %}
 
-### Ambient Light
+## Ambient Light
 
-API que expôe o valor da luminosidade do ambiente. O valor retornado é em lux, que é a unidade mundial de iluminamento. Com isso é possível trabalhar sua aplicação para diferentes ambientes, dando uma sensação melhor para o usuário. O valor vai de 0 a 10000, onde zero é totalmente escuro ou sem iluminação.
+API que expôe o valor da luminosidade do ambiente. O valor retornado é em lux, que é a unidade mundial de iluminamento. Com isso é possível trabalhar sua aplicação para diferentes ambientes, dando uma sensação melhor para o usuário. O valor vai de 0 a +10000, onde zero é totalmente escuro ou sem iluminação.
 
-###### Exemplo
+Exemplo
 {% highlight javascript %}
 
   function updateLightLevel(lightLevel) {
