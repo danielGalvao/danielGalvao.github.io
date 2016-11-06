@@ -5,9 +5,9 @@ date:   2016-11-06 20:35:45 -0300
 categories: html5 tecnology API javascript
 ---
 
-O (HTML5)[https://www.w3.org/TR/html5/] é um projeto que começou a ser pensado em 2004. No entanto só ganhou força após o anúncio da Apple em remover todo o suporte ao Flash.
+O [HTML5](https://www.w3.org/TR/html5/) é um projeto que começou a ser pensado em 2004. No entanto só ganhou força após o anúncio da Apple em remover todo o suporte ao Flash.
 
-Muitos não acreditavam que o HTML5 pudesse ser lançado e suportado completamente antes de 2020. Mas assim como o projeto mantido pela (W3C)[http://www.w3c.br], os navegadores também estavam evoluindo de uma forma bem interessante.
+Muitos não acreditavam que o HTML5 pudesse ser lançado e suportado completamente antes de 2020. Mas assim como o projeto mantido pela [W3C](http://www.w3c.br), os navegadores também estavam evoluindo de uma forma bem interessante.
 
 Em 2011 alguns navegadores já interpretavam HTML5, era óbvio que seu suporte na época era bem escasso. Isso fez com que a comunidade olhasse para o HTML5 com uma certa dúvida: _"Usar ou não nos projetos?"_.
 
@@ -15,7 +15,7 @@ O tempo passou e apenas em 2014 a W3C passou o projeto do HTML5 para recomendado
 
 Caindo no esquecimento de muitos, inclusive o meu, o HTML5 me parecia algo _"velho"_ e não mais muito preocupante para se pensar. Até que indo em um evento de Front-End, tive o prazer de receber um _"tapa na cara"_ em uma das palestras.
 
-Sim, (Zeno Rocha)[http://www.zenorocha.com] veio da Califórnia para abrir os olhos dos desligados como eu, que o HTML5 de fato não morreu.
+Sim, [Zeno Rocha](http://www.zenorocha.com) veio da Califórnia para abrir os olhos dos desligados como eu, que o HTML5 de fato não morreu.
 
 Fazia tempo que uma palestra não me deixava com sede de aprender, e buscar testar coisas novas. E sim, existe muita coisa nova em APIs do HTML5 que vocês precisam conhecer.
 
@@ -136,7 +136,7 @@ Exemplo
 
 ## GitHub
 
-Criei um (repositório)[https://github.com/danielGalvao/html5-examples] no github para colocar alguns exemplos para quem tiver interesse em brincar. Fique a vontade para contribuir com melhorias e novos exemplos.
+Criei um [repositório](https://github.com/danielGalvao/html5-examples) no github para colocar alguns exemplos para quem tiver interesse em brincar. Fique a vontade para contribuir com melhorias e novos exemplos.
 
 ## Conclusão
 
