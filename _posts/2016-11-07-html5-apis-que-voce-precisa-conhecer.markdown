@@ -1,21 +1,21 @@
 ---
 layout: post
 title:  "HTML5 - APIs que você precisa conhecer"
-date:   2016-11-03 20:35:45 -0300
+date:   2016-11-06 20:35:45 -0300
 categories: html5 tecnology API javascript
 ---
 
-O HTML5 é um projeto que começou a ser pensado em 2004. No entanto só ganhou força após o anúncio da Apple em remover todo o suporte ao Flash.
+O (HTML5)[https://www.w3.org/TR/html5/] é um projeto que começou a ser pensado em 2004. No entanto só ganhou força após o anúncio da Apple em remover todo o suporte ao Flash.
 
-Muitos não acreditavam que o HTML5 pudesse ser lançado e suportado completamente antes de 2020. Mas assim como o projeto mantido pela W3C, os navegadores também estavam evoluindo de uma forma bem interessante.
+Muitos não acreditavam que o HTML5 pudesse ser lançado e suportado completamente antes de 2020. Mas assim como o projeto mantido pela (W3C)[http://www.w3c.br], os navegadores também estavam evoluindo de uma forma bem interessante.
 
-Em 2011 a W3C tornou o HTML5 como um projeto recomendado. Era óbvio que seu suporte na época era bem escasso. Isso fez com que a comunidade olhasse para o HTML5 com uma certa dúvida: _"Usar ou não nos projetos?"_.
+Em 2011 alguns navegadores já interpretavam HTML5, era óbvio que seu suporte na época era bem escasso. Isso fez com que a comunidade olhasse para o HTML5 com uma certa dúvida: _"Usar ou não nos projetos?"_.
 
-O tempo se passou e todos os navegadores tiveram suporte e hoje em 2016 é uma realidade muito nítida em qualquer projeto.
+O tempo passou e apenas em 2014 a W3C passou o projeto do HTML5 para recomendado. Praticamente todos os navegadores já tinham suporte e hoje em 2016 é uma realidade muito nítida em qualquer projeto.
 
 Caindo no esquecimento de muitos, inclusive o meu, o HTML5 me parecia algo _"velho"_ e não mais muito preocupante para se pensar. Até que indo em um evento de Front-End, tive o prazer de receber um _"tapa na cara"_ em uma das palestras.
 
-Sim, Zeno Rocha veio de California para abrir os olhos dos desligados como eu, que o HTML5 de fato não morreu.
+Sim, (Zeno Rocha)[http://www.zenorocha.com] veio da Califórnia para abrir os olhos dos desligados como eu, que o HTML5 de fato não morreu.
 
 Fazia tempo que uma palestra não me deixava com sede de aprender, e buscar testar coisas novas. E sim, existe muita coisa nova em APIs do HTML5 que vocês precisam conhecer.
 
@@ -76,9 +76,6 @@ Mais uma boa interação com o usuário para avisá-lo que muito provavelmente a
 Exemplo
 {% highlight javascript %}
   navigator.getBattery().then(function(battery){
-    console.log('A bateria está sendo carregada: '+battery.charging ? 'Sim' : 'Não');
-    console.log('O tempo para carregar a bateria é: '+battery.chargingTime);
-    console.log('O tempo para a bateria descarregar completamente é:'+battery.dischargingTime);
     console.log('A porcentagem da bateria é '+battery.level*100+'%');
   });
 {% endhighlight %}
@@ -136,3 +133,15 @@ Exemplo
   }
 
 {% endhighlight %}
+
+## GitHub
+
+Criei um (repositório)[https://github.com/danielGalvao/html5-examples] no github para colocar alguns exemplos para quem tiver interesse em brincar. Fique a vontade para contribuir com melhorias e novos exemplos.
+
+## Conclusão
+
+É claro que não apresentei aqui nesse post todas as APIs do HTML5, coloquei apenas algumas para uma demonstração do quão enorme está, e em constante evolucão.
+
+Agora é refletir se continua apenas olhando ou vai entrar na onda e curtir o que ela tem para lhe oferecer.
+
+“A mudança é a lei da vida. E aqueles que apenas olham para o passado ou para o presente irão com certeza perder o futuro.” Kennedy, John
