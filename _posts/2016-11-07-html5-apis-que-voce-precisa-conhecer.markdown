@@ -92,7 +92,7 @@ Suporte: [Battery Status](http://caniuse.com/#search=Battery%20Status)
 
 API que tem acesso ao hardware de vibração do dispositivo. É bem simples de implementar, pois espara-se um valor inteiro ou array de valores inteiros, onde é intercalado em tempo de vibração e tempo de pausa de vibração.
 
-Existe um projeto vibe que é possível testar sem ser em dispositivos que tenham hardware de vibração, chama-se [Vibe](https://naschq.github.io/vibe.js/).
+Existe um projeto da [Nasc](https://github.com/NascHQ/) que é possível testar sem ser em dispositivos que tenham hardware de vibração, chama-se [Vibe](https://naschq.github.io/vibe.js/).
 
 Exemplo
 {% highlight javascript %}
