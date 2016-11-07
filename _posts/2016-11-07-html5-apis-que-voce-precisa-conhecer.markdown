@@ -42,6 +42,8 @@ document.addEventListener('visibilitychange', function () {
 
 {% endhighlight %}
 
+Suporte: [Page Visibility](http://caniuse.com/#search=page%20visibility)
+
 ## Device Orientation
 
 O _Device Orientation_ retorna as coordenadas do dispositivo. Coordenadas alpha, beta e gamma, são expostas, dependendo do posicionamento do dispositivo. Isso é bem importante para as aplicações pois os usuários estão cada vez mais acessando as aplicações de dispositivos móveis.
@@ -52,6 +54,8 @@ Exemplo
     console.log ='beta: '+ event.beta +' gamma: '+ event.gamma + 'alpha: ' + event.alpha;
   });
 {% endhighlight %}
+
+Suporte: [Device Orientation](http://caniuse.com/#search=deviceOrientation)
 
 ## Network Information
 
@@ -67,9 +71,11 @@ Exemplo
   });
 {% endhighlight %}
 
+Suporte: [Network Information](http://caniuse.com/#search=Network%20Information)
+
 ## Battery Status
 
-Battery Status é a API que retorna a informação sobre o status da bateria, se está sendo carregada, o level da bateria e o tempo de carregamento e descarregamento.
+Battery Status é a API que retorna a informação sobre o status da bateria, se está sendo carregada, o level da bateria e o tempo de carregamento e descarregamento. Ainda não está 100% lançada, mas já é possível testar o level.
 
 Mais uma boa interação com o usuário para avisá-lo que muito provavelmente a aplicação pode ser prejudicada por conta do desligamento do dispositivo.
 
@@ -80,14 +86,20 @@ Exemplo
   });
 {% endhighlight %}
 
+Suporte: [Battery Status](http://caniuse.com/#search=Battery%20Status)
+
 ## Vibration API
 
 API que tem acesso ao hardware de vibração do dispositivo. É bem simples de implementar, pois espara-se um valor inteiro ou array de valores inteiros, onde é intercalado em tempo de vibração e tempo de pausa de vibração.
+
+Existe um projeto vibe que é possível testar sem ser em dispositivos que tenham hardware de vibração, chama-se [Vibe](https://naschq.github.io/vibe.js/).
 
 Exemplo
 {% highlight javascript %}
   navigator.vibrate([400, 500, 400, 500, 5000]);
 {% endhighlight %}
+
+Suporte: [Vibration API](http://caniuse.com/#search=Vibration%20API)
 
 ## Web Notifications
 
@@ -105,6 +117,8 @@ Exemplo
     new Notification(title, options);
   });
 {% endhighlight %}
+
+Suporte: [Web Notifications](http://caniuse.com/#search=Web%20Notifications)
 
 ## Ambient Light
 
@@ -133,6 +147,8 @@ Exemplo
   }
 
 {% endhighlight %}
+
+Suporte: [Ambient Light](http://caniuse.com/#search=Ambient%20Light)
 
 ## GitHub
 
