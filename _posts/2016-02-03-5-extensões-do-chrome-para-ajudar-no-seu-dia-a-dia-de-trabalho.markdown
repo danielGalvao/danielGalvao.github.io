@@ -2,7 +2,7 @@
 layout: post
 title:  "5 extensões do Chrome para ajudar no seu dia a dia de trabalho"
 date:   2016-02-03 12:12:45 -0300
-categories: javascript atom chrome tecnology
+image: ../../../assets/images/background_image.jpg
 ---
 É muito comum na área de desenvolvimento existirem diversos meios para alcançar um resultado perfeito. Também é fato que, nessa área, tudo muda muito rápido, frameworks, ferramentas, IDE`s, ou seja, praticamente uma novidade por dia.
 
