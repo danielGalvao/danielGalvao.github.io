@@ -61,7 +61,7 @@ Suporte: [Device Orientation](http://caniuse.com/#search=deviceOrientation)
 
 Essa é uma das APIs que quase não se tem suporte. Apesar de vir para substituir uma forma já existente de se ter acesso a informação de _online_ ou _offline_ da internet do usuário.
 
-A nova API vem para trazer ainda mais informação, além do status da conxão, retornará o tipo de conexão e a velocidade dela.
+A nova API vem para trazer ainda mais informação, além do status da conexão, retornará o tipo de conexão e a velocidade dela.
 
 Exemplo
 {% highlight javascript %}
