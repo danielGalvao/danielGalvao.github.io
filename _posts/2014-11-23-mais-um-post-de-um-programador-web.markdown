@@ -2,7 +2,7 @@
 layout: post
 title:  "Mais um post de um programador web…"
 date:   2014-11-23 15:12:45 -0300
-image: ./assets/images/background_image.jpg
+image: ../../../assets/images/background_image.jpg
 ---
 Provavelmente você ainda não me conhece. Sou programador web na vagalume.com.br. Isso mesmo, o maior portal de letra de música do Brasil, são aproximadamente dois milhões de acessos/dia.
 
