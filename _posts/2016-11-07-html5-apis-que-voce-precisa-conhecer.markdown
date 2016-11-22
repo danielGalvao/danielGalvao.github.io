@@ -2,7 +2,7 @@
 layout: post
 title:  "HTML5 - APIs que você precisa conhecer"
 date:   2016-11-06 20:35:45 -0300
-categories: html5 tecnology API javascript
+image: ../../../assets/images/cA4aKEIPQrerBnp1yGHv_IMG_9534-3-2.jpg
 ---
 
 O [HTML5](https://www.w3.org/TR/html5/) é um projeto que começou a ser pensado em 2004. No entanto só ganhou força após o anúncio da Apple em remover todo o suporte ao Flash.
