@@ -2,7 +2,7 @@
 layout: post
 title:  "O que muda no JavaScript com o EcmaScript 6"
 date:   2016-03-15 12:12:45 -0300
-categories: javascript tecnology
+image: ../../../assets/images/cA4aKEIPQrerBnp1yGHv_IMG_9534-3-2.jpg
 ---
 Acredito que todos já saibam da nova versão do JavaScript(ES6), oficialmente chamada de ES2015.
 
