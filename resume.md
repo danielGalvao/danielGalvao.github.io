@@ -3,7 +3,6 @@ layout: page
 title: Resume
 permalink: /resume/
 ---
-
 Daniel Galvão
 ============
 
@@ -26,7 +25,12 @@ Education
 Experience
 ----------
 
-**Web Developer (2015 - until now) - JustDigital.com.br:**
+**Front-end Developer (2017 - now) - vagas.com.br:**
+
+Working with: Vue.js, React, Redux, Webpack, HTML5, SASS, Grunt, JS, HTML.
+
+
+**Web Developer (2015 - 2017) - JustDigital.com.br:**
 
 Working with Drupal 6 and 7.
 
